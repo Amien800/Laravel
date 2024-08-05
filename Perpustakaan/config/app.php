@@ -53,10 +53,7 @@ return [
     |
     */
 
-    'url' => env(
-        'APP_URL',
-        'https://perpustakaan-production-bdc0.up.railway.app/'
-    ),
+    'url' => env('APP_URL', 'https://laravel-production-9db3.up.railway.app/'),
 
     'asset_url' => env('ASSET_URL'),
 
